@@ -1,0 +1,153 @@
+html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <title>carear path</title>
+   <style>
+body{
+      padding: 0;
+      margin: 0;
+  }
+ 
+ 
+  .slider-frame{
+      overflow: hidden;
+      height: 800px;
+      width: 1200px;
+      margin-left: 360px;
+      margin-top: 20px;
+  }
+ 
+  /*---------- SLIDE ANIMATION --------------*/
+ 
+ 
+  @keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 0px;}
+      90% {left: 0px;}
+      100% {left:0px;}
+  }
+ 
+  @-webkit-keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 0px;}
+      90% {left: 0px;}
+      100% {left:0px;}
+  }
+ 
+  .slide-images{
+      width: 3600px;
+      height: 800px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 33s;
+      animation-duration: 33s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
+ 
+  .img-container{
+      height: 800px;
+      width: 1200px;
+      position: relative;
+      float: left;
+  }
+  
+  main {
+      padding: calc(var(--heading-height) + 1.5vw) 4em 0;
+    }
+    
+    p {
+        font-size: x-large;
+      font-weight: 400;
+      color: #fcfcfc;
+    }
+  
+    .backvideo{
+position:absolute;
+right: 0;
+z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backvideo{
+    width: 100%;
+    height: auto;
+    }
+    }
+    
+    @media (max-aspect-ratio: 16/9){
+        .backvideo{
+        width: auto;
+        height: 100%;
+        }
+        } 
+  
+  
+  
+  </style>
+   
+    </head>
+    <body>
+        <video autoplay loop muted plays-inline class="backvideo">
+            <source src="images\pexels-mart-production-7565632 (1080p).mp4" type="video/mp4">
+            </video>
+        <div class="slider-frame">
+        <div class="slide-images">
+                <div class="img-container">
+                    <img src="imageS/A.jpg">
+                </div>
+                <div class="img-container">
+                    <img src="images/h.png">
+                </div>
+                <div class="img-container">
+                    <img src="images/A.jpg">
+                </div>
+        </div>
+    </div>
+  
+    <main>
+        <p>Computer Science is a multidisciplinary field that involves the study of computers, computation, information, and automation. It includes various branches and applications, such as:
+        Artificial Intelligence (AI): AI is a subset of computer science that focuses on developing systems capable of mimicking human intelligence, including learning, reasoning, and perception.
+        Software Engineering: This branch of computer science deals with the design, development, and maintenance of software systems.
+        Data Science: Data science involves the collection, processing, and analysis of large datasets to extract meaningful insights and make informed decisions.
+        Cloud Computing: Cloud computing is the delivery of computing services over the internet, including storage, processing power, and software applications, with the ability to scale up or down as needed.
+        Programming: Programming is the process of writing instructions for a computer to perform specific tasks, using languages like Python, Java, or C++.
+        Cybersecurity: This field focuses on protecting computer systems and networks from unauthorized access, theft, or damage.</p>
+        
+      <P>Computer science also encompasses various topics and techniques, such as algorithms, data structures, computational theory, computer architecture, and human-computer interaction. The field is constantly evolving, with new technologies and applications emerging regularly.
+        Algorithms: Algorithms are a fundamental part of computer science, providing a set of instructions for solving specific problems. They are used in various applications, such as search engines, social networks, and financial systems, to process and analyze data efficiently.
+        Data Structures: Data structures are organized collections of data that enable efficient storage, retrieval, and manipulation of information. Common data structures include arrays, linked lists, and trees.
+        Computational Theory: Computational theory is the study of the fundamental principles underlying computer science. It includes topics like computability, complexity theory, and automata theory, which provide a theoretical foundation for understanding the capabilities and limitations of computers.
+        Computer Architecture: Computer architecture refers to the design and organization of a computer system. It encompasses the hardware components, such as processors, memory, and input/output devices, as well as the software that manages their interactions.
+        Human-Computer Interaction (HCI): HCI is the study of how people interact with computers and how computers can be designed to better support human needs. It involves understanding user behavior, designing user interfaces, and evaluating the effectiveness of computer systems.
+        Networking: Networking is the field of computer science that deals with connecting multiple computers and devices together to share resources and communicate. It includes topics like protocols, routing, and security.
+        Software Development: Software development is the process of designing, building, and maintaining software systems. It involves various stages, such as requirements gathering, design, implementation, testing, and deployment.
+        Computer Graphics: Computer graphics is the field of computer science that deals with the representation and manipulation of visual information. It includes techniques for rendering images, animations, and virtual environments.
+        Database Systems: Database systems are used to store, manage, and retrieve large amounts of data. They are essential for applications like e-commerce, social networks, and scientific research.
+        Distributed Systems: Distributed systems are computer systems that span multiple computers, connected by a network. They are designed to provide scalability, fault tolerance, and performance.
+        Computer science is a vast field with numerous branches and applications. The above-mentioned topics and techniques are just a few examples of the diverse areas of study within computer science. As technology continues to evolve, new areas of research and development are emerging, further expanding the scope of this dynamic field.</p>
+    </main>   
+
+</body>
+</html>
