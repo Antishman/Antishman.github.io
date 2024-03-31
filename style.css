@@ -44,3 +44,26 @@
         letter-spacing: 0.5px;
         padding: 0 10px;
         }
+        a:after{
+            content: "";
+            position: absolute;
+            background-color: darkslategrey;
+            height: 3px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: 0.3s;
+            }
+            a:hover:after{
+              width: 100%;  
+            }
+            .content{
+            text-align:center;
+            }
+            
+            .content h1{
+            font-size: 160px;
+            color:white;
+            font-weight: 600;
+            transition: 0.5s;
+            }
