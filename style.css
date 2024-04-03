@@ -88,3 +88,9 @@
               right: 0;
               z-index: -1;
               }
+              @media (min-aspect-ratio: 16/9){
+                .backvideo{
+                width: 100%;
+                height: auto;
+                }
+                }
