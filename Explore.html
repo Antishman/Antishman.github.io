@@ -1,0 +1,219 @@
+<html>
+<head> 
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+    
+    :root {
+      /* Base font size */
+      font-size: 10px;
+    
+      /* Heading height variable*/
+      --heading-height: 30em;
+    }
+    
+    body {
+      font-family: "Roboto", Arial, sans-serif;
+      min-height: 100vh;
+      background-color:#1a5050;
+    }
+    
+    header {
+      position: fixed;
+      width: 100%;
+      height: var(--heading-height);
+    }
+    
+    /* Create angled background with 'before' pseudo-element */
+    header::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 6em;
+      width: 100%;
+      height: calc(var(--heading-height) + 10em);
+      z-index: -1;
+      transform: skewY(-3.5deg);
+      background: 
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url(images\pexels-fabian-wiktor-3573841.jpg) no-repeat center,
+        linear-gradient(#4e4376, #36bcf177);
+      background-size: cover;
+      border-bottom: .2em solid #fff;
+    }
+    
+    h1 {
+      font-size: calc(2.8em + 2.6vw);
+      font-weight: 700;
+      letter-spacing: .01em;
+      padding: 10rem 0 0 4.5rem;
+      text-shadow: .022em .022em .022em #111;
+      color: #fff;
+    }
+    
+    main {
+      padding: calc(var(--heading-height) + 1.5vw) 4em 0;
+    }
+    
+    p {
+      font-size: calc(2em + .25vw);
+      font-weight: 400;
+      line-height: 2;
+      margin-bottom: 1.5em;
+      color: #fcfcfc;
+    }
+    
+
+
+
+
+
+
+
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+    </Style>
+</head>
+
+
+  <header>
+    <h1>Explore Computer Science</h1>
+
+</header>
+
+<main>
+	<p>Computer Science is a multidisciplinary field that involves the study of computers, computation, information, and automation. It includes various branches and applications, such as:
+    Artificial Intelligence (AI): AI is a subset of computer science that focuses on developing systems capable of mimicking human intelligence, including learning, reasoning, and perception.
+    Software Engineering: This branch of computer science deals with the design, development, and maintenance of software systems.
+    Data Science: Data science involves the collection, processing, and analysis of large datasets to extract meaningful insights and make informed decisions.
+    Cloud Computing: Cloud computing is the delivery of computing services over the internet, including storage, processing power, and software applications, with the ability to scale up or down as needed.
+    Programming: Programming is the process of writing instructions for a computer to perform specific tasks, using languages like Python, Java, or C++.
+    Cybersecurity: This field focuses on protecting computer systems and networks from unauthorized access, theft, or damage.</p>
+	
+  <P>Computer science also encompasses various topics and techniques, such as algorithms, data structures, computational theory, computer architecture, and human-computer interaction. The field is constantly evolving, with new technologies and applications emerging regularly.
+    Algorithms: Algorithms are a fundamental part of computer science, providing a set of instructions for solving specific problems. They are used in various applications, such as search engines, social networks, and financial systems, to process and analyze data efficiently.
+    Data Structures: Data structures are organized collections of data that enable efficient storage, retrieval, and manipulation of information. Common data structures include arrays, linked lists, and trees.
+    Computational Theory: Computational theory is the study of the fundamental principles underlying computer science. It includes topics like computability, complexity theory, and automata theory, which provide a theoretical foundation for understanding the capabilities and limitations of computers.
+    Computer Architecture: Computer architecture refers to the design and organization of a computer system. It encompasses the hardware components, such as processors, memory, and input/output devices, as well as the software that manages their interactions.
+    Human-Computer Interaction (HCI): HCI is the study of how people interact with computers and how computers can be designed to better support human needs. It involves understanding user behavior, designing user interfaces, and evaluating the effectiveness of computer systems.
+    Networking: Networking is the field of computer science that deals with connecting multiple computers and devices together to share resources and communicate. It includes topics like protocols, routing, and security.
+    Software Development: Software development is the process of designing, building, and maintaining software systems. It involves various stages, such as requirements gathering, design, implementation, testing, and deployment.
+    Computer Graphics: Computer graphics is the field of computer science that deals with the representation and manipulation of visual information. It includes techniques for rendering images, animations, and virtual environments.
+    Database Systems: Database systems are used to store, manage, and retrieve large amounts of data. They are essential for applications like e-commerce, social networks, and scientific research.
+    Distributed Systems: Distributed systems are computer systems that span multiple computers, connected by a network. They are designed to provide scalability, fault tolerance, and performance.
+    Computer science is a vast field with numerous branches and applications. The above-mentioned topics and techniques are just a few examples of the diverse areas of study within computer science. As technology continues to evolve, new areas of research and development are emerging, further expanding the scope of this dynamic field.</p>
+</main>
+
+<footer>
+  <div class="footerContainer">
+      <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-google-plus"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footerNav">
+          <ul><li><a href="">Home</a></li>
+              <li><a href="">Carear Path</a></li>
+              <li><a href="">course</a></li>
+              <li><a href="">Contact Us</a></li>
+              
+          </ul>
+      </div>
+      
+  </div>
+  <div class="footerBottom">
+      <p>Copyright &copy;2024; Designed by <span class="designer">CS ARSI</span></p>
+  </div>
+</footer>
+</html>
