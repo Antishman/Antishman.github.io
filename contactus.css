@@ -11,7 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(11, 7, 250);
+    background-image: url('photobckg.jpg');
+    color: transparent;
 
 }
 .container form{
@@ -78,18 +79,18 @@ textarea::-webkit-scrollbar-thumb{
 }
 .container form #button{
     border: none;
-    background: #fff;
+    background:em;
     border-radius: 5px;
     margin-top: 20px;
     font-weight: 600;
     font-size: 20px;
-    color: #333;
+    color: #fff;
     width: 100px;
     padding: 0;
-    margin-right: 500px;
+    margin-right: 0px;
     margin-bottom: 30px;
-    transition:0.3s;
+    transition:3s;
 }
 .container form #button:hover{
- opacity:0.7;
+ background: rgb(1, 124, 5);
 }
